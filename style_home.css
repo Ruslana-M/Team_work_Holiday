@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(241, 230, 232);
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+h1{
+    font-size: 900;
+    font-weight: 500;
+    color: black;
+}
