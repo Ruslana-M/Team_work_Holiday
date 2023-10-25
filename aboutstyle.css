@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+h1{
+    font-size: 3em;
+    color: white;
+    ;
+}
+.section h2{
+    font-size: 2em;
+    color: white;
+}
+span{
+    color: rgb(225, 192, 57);
+}
+p{
+    font-size: 1em;
+}
+.section{
+    height: 50%;
+    margin-bottom: 10px;
+
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-image: url("https://assets.cntraveller.in/photos/63a53dc3d7caa4e531854e77/3:2/w_1620,h_1080,c_limit/ROOM%20WITH%20A%20VIEW%20LEAD.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 360px;
+}
+.one button{
+    background-color: rgb(225, 192, 57);
+    padding: 20px 50px;
+    border: transparent;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.two img{
+    width: 50%;
+    display: flex;
+    gap: 10px;
+}
+.text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 20px;
+    overflow-y: scroll;
+}
+.text h2{
+    color: rgb(39, 36, 36);
+    font-style: italic;
+    padding-top: 10px;
+}
+.text h3{
+    color: rgb(53, 55, 57);
+}
+.text p{
+    color:rgb(67, 68, 69)
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.three{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-bottom: 10px;
+}
+.three h2{
+    color: rgb(39, 36, 36);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.profiles{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 20px;
+    text-align: center;
+    gap: 100px;
+    line-height: 20px;
+
+}
+.profiles img{
+
+    border-radius: 50% ;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.icon2{
+    gap: 30px;
+}
