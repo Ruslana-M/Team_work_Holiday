@@ -25,7 +25,7 @@ p{
     font-size: 1em;
 }
 .section{
-    height: 25%;
+    height: 50%;
     margin-bottom: 10px;
 
 }
@@ -64,17 +64,60 @@ p{
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    padding: 10px 18px;
-    /* overflow-y: scroll; */
+    padding: 10px 20px;
+    overflow-y: scroll;
 }
 .text h2{
     color: rgb(39, 36, 36);
     font-style: italic;
-    padding-top: 110px;
+    padding-top: 10px;
 }
 .text h3{
     color: rgb(53, 55, 57);
 }
 .text p{
     color:rgb(67, 68, 69)
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.three{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-bottom: 10px;
+}
+.three h2{
+    color: rgb(39, 36, 36);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.profiles{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 20px;
+    text-align: center;
+    gap: 100px;
+    line-height: 20px;
+
+}
+.profiles img{
+
+    border-radius: 50% ;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.icon2{
+    gap: 30px;
 }
