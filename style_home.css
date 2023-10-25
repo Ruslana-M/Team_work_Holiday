@@ -21,3 +21,35 @@ nav{
     font-weight: 500;
     color: black;
 }
+
+.sec1{
+    opacity: .2;
+
+}
+
+.h1_sect1{
+font-size: 5em;
+font-weight: 600;
+}
+.mb-5{
+    font-size: 5em;
+font-weight: 600;
+}
+
+.h2_sect1{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+span{
+    color: rgb(203, 190, 37);
+} 
+.opac{
+    opacity: 80;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(203, 190, 37);
+    border-radius: 0%;
+}
