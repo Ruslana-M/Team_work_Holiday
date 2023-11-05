@@ -31,9 +31,15 @@
 
 <section2 class="sect2">
 <div class="cards-3">
-<div class="card">
-    <div class="top">
-      <form action="" id="form1">
+<div class="card card1">
+    <div class="card1-top">
+    <div class="card1-top1"> <p><b>Hotel</b></p></div>
+    <div class="card1-top2"><p><b>Car-rental</b></p></div>
+  </div>  
+
+      
+ <div class="top card1-middle">
+  <form action="" id="form1">
   <select name="Hotel" id="Hotel">
     <option value="hotel">--Select Hotel--</option>
     <option value="Shangri-La">Shangri-La</option>
@@ -41,7 +47,12 @@
     <option value="Four Seasons">Four Seasons</option>
     <option value="Hilton">Hilton</option>
   </select>
+  <br>
   
+  <input type="date" id="checkin" name="checkin" placeholder="Check-in Date">
+  <br>
+  <input type="date" id="checkout" name="checkout" placeholder="Check-out Date">
+  <br>
 
   <select name="Guests" id="Guests">
     <option value="Guests">--Guests--</option>
@@ -50,8 +61,30 @@
     <option value="G3">3</option>
     <option value="G4">4</option>
   </select>
-      </form>
+  </form>
 
+
+      <form action="" name="car-rental" id="form2">
+        <select name="car-rent" id="Car">
+          <option value="model">--Select Model--</option>
+          <option value="BMW">BMW</option>
+          <option value="Benz">Benz</option>
+          <option value="Honda">Honda</option>
+          <option value="Ford">Ford</option>
+        </select>
+        <br>  
+        <input type="date" id="pickup" name="pickup" placeholder="Pickup Date">
+        <br>
+        <input type="date" id="return" name="return" placeholder="Return Date">
+        <br>
+        <select name="Options" id="Options">
+          <option value="Options">--Options--</option>
+          <option value="G1">Child -Seat</option>
+          <option value="G2">GPS -Navigator</option>
+          <option value="G3">Insurance</option>
+        </select>
+      </form>
+      
     </div>
     <div class="bottom bottom1">
       <button class="btn1">CHECK NOW</button>

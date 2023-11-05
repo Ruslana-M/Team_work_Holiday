@@ -123,13 +123,55 @@ span {
 .sect2 .card {
   height: 100%;
   width: 30%;
+  justify-content: center;
+  align-items: center;
+  
 }
+.card1{
+  height: 10%;
+  width: 100%;
+  background-color: rgb(224, 200, 16);
+  color: black;
+position: relative;
+}
+.card1-top1
+{
+  height: 10%;
+  width: 50%;
+  background-color: rgb(224, 200, 16);
+  columns: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.card1-top2
+{
+  height: 10%;
+  width: 50%;
+  background-color: white;
+  color: black;
+  position: absolute;
+  left: 170px;
+  top: 0;
+}
+
+
 .top {
   height: 80%;
   width: 100%;
-  background-color: rgb(197, 235, 197);
+  background-color: white;
 }
-
+.card1-middle{
+  padding: 20px  1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+select, input{
+  width: 100%;
+  border: solid 1px gray;
+}
 .top2 {
   background-image: url("https://cdn.pixabay.com/photo/2020/06/16/01/40/buildings-5303864_1280.jpg");
   background-size: cover;
