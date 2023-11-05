@@ -9,17 +9,45 @@ body{
     height: 100vh;
     background-color: lightgray;
 }
+nav{
+    height:12%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo{
+    border-radius: 48%;
+    height: 84px;
+    margin-left: 20px;
+}
+
+.navLists{
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    gap:38px;
+    padding: 20px;
+    color: white;
+
+}
+
 h1{
     font-size: 3em;
     color: white;
-    ;
+    
 }
 .section h2{
     font-size: 2em;
     color: white;
 }
 span{
-    color: rgb(225, 192, 57);
+    color: #7A7694;
+}
+.tour{
+    color: whitesmoke;
 }
 p{
     font-size: 1em;
@@ -45,7 +73,13 @@ p{
     background-color: rgb(225, 192, 57);
     padding: 20px 50px;
     border: transparent;
+    opacity: 0.8;
 }
+.one button:hover {
+    color: black;
+    background-color: rgb(236, 225, 17);
+    opacity: 100;
+  }
 .two{
     display: flex;
     flex-direction: row;
@@ -89,6 +123,8 @@ p{
     flex-direction: column;
     /* justify-content: space-between; */
     padding-bottom: 10px;
+    height: 476px;
+
 }
 .three h2{
     color: rgb(39, 36, 36);
@@ -114,10 +150,35 @@ p{
     width: 150px;
     height: 150px;
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: center; 
 }
 .icon2{
     gap: 30px;
 }
+.each-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    height: 400px;
+    padding: 15px;
+    width: 400px;
+}
+
+.icon-row{
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    font-size: 20px;
+}
+
+.footer{
+    height:100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
